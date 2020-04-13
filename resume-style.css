@@ -1,16 +1,156 @@
-.title {
-    margin: 0;
-    font-family: Lato;
-    font-size: 38px;
+
+hr{
+    margin-top: 25px 0;
+    border: 1px solid #f1f1f1;
+}
+
+.resume-content{
+    width: 70%;
+}
+
+.resume-aside{
+    width: 30%;
+    border-left: 1px solid #f1f1f1;
+    margin-left: 15px;
+    padding-left: 20px;
+}
+
+.resume-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume-title{
+    font-size: 36px;
     font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+    margin: 30px 0 25px 0;
 }
-.subtitle{
-    margin-bottom: 1em;
-    font-family: Lato;
-    font-size: 1.5em;
-    line-height: 1em;
-    text-transform: uppercase;
-    text-align: center;
+.resume-subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 25px 0;
 }
+.resume-date{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background-color: blue;
+    font-size: 12px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+}
+.resume-date--green{
+    background-color: chartreuse;
+}
+.skills {
+    padding: 0;
+    margin-bottom: 36px;
+    list-style-type: none;
+  }
+  
+.skills-item {
+    margin-bottom: 15px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    color: #FFF;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .skills-bg {
+    padding: 2px 5px;
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+.skills-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    background-size: 5rem 5rem;
+    z-index: 1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+  .photoshop {
+    width: 60%;
+    background: #36e47f;
+  }
+  
+  .ilustrator {
+    width: 30%;
+    background: #f88f34;
+  }
+  
+  .indesign {
+    width: 50%;
+    background: #85499e;
+  }
+  
+  .xd {
+    width: 25%;
+    background: #cca60e;
+  }
+  
+  .sketch {
+    width: 80%;
+    background: #3a6b9c;
+  }
+  .office {
+    width: 90%;
+    background: #c95346;
+  }
+  
+  .linux {
+    width: 55%;
+    background: rgb(151, 123, 123);
+  }
+  
+  .user {
+    width: 70%;
+    background: #4bb376;
+  }
+  
+  .typography {
+    width: 85%;
+    background: #db8f4c;
+  }
+  
+  .web {
+    width: 60%;
+    background: #832fa7;
+  }
+  
+  .html {
+    width: 60%;
+    background: #55cf88;
+  }
+  
+  .php {
+    width: 70%;
+    background: #cc7a32;
+  }
+  
+  .javascript {
+    width: 80%;
+    background: #8f4cac;
+  }
+  
+  .ruby {
+    width: 85%;
+    background: #caac34;
+  }
+  
+  .python {
+    width: 90%;
+    background: #4b6f94;
+  }
+
